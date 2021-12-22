@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.same {
+    height: 56px;
+    width: 60px;
+    font-size: 21px;
+    border: 1px solid #B24242;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.increment {
+    border-radius: 0 8px 8px 0;
+    color: #FFFFFF;
+    background-color: #B24242;
+    border-left: none;
+}
+
+button:focus-visible {
+    outline: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.decrement {
+    border-radius: 8px 0 0 8px;
+    color: #B24242;
+    background-color: #FFFFFF;
+    border-right: none;
+}
+
+.input {
+    font-size: 21px;
+    background-color: #FBE8E8;
+    color: #B24242
+}
+
+.input:focus {
+    outline: none;
+}
